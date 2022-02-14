@@ -1,6 +1,6 @@
 package basics;
 import java.util.Scanner;
-public class printevennumbers {
+public class Printevennumbers {
     public static void main(String[] args) {
         int num1;
         System.out.println("This application takes input from the user and prints all the even numbers till the given number");

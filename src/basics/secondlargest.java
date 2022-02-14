@@ -2,7 +2,7 @@ package basics;
 
 import java.util.Scanner;
 
-public class secondlargest {
+public class Secondlargest {
     public static void main(String[] args) {
         int num1,num2,num3;
         System.out.println("This application compares three numbers and shows the 2nd largest number");

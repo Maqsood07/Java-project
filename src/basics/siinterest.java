@@ -2,7 +2,7 @@ package basics;
 
 import java.util.Scanner;
 
-public class siinterest {
+public class Siinterest {
     public static void main(String[] args) {
         int p, r, t, si;
         System.out.println("This application calculates the Simple interest");

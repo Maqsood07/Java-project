@@ -1,6 +1,6 @@
 package basics;
 import java.util.Scanner;
-public class printoddnumbers {
+public class Printoddnumbers {
     public static void main(String[] args) {
         int num1;
         System.out.println("This application takes input from the user and prints all the odd numbers till the given number");

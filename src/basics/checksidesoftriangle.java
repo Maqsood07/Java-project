@@ -2,7 +2,7 @@ package basics;
 
 import java.util.Scanner;
 
-public class checksidesoftriangle {
+public class Checksidesoftriangle {
     public static void main(String[] args) {
         int side1, side2, side3;
         System.out.println("This application compares three sides and shows if it is triangle or not");
