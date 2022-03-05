@@ -7,10 +7,10 @@ public class Fahrenheittoctable {
         int start = s.nextInt();
         int end = s.nextInt();
         int def =s.nextInt();
-        int formula;
+        double formula;
         for(;start<=end;start=start+def){
             formula =(start-32)* 5/9;
-            System.out.println(start+"\t"+formula);
+            System.out.println(start+"\t"+(int)formula+" C");
         }
     }
 }

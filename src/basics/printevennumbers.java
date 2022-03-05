@@ -7,11 +7,12 @@ public class Printevennumbers {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the Number : ");
         num1 = input.nextInt();
-        System.out.println("Printing all the even number from 1 to "+ num1 );
-        for (int i =1;i<=num1;i++)
+        int sum=0;
+        System.out.println("Printing all the prime number from 1 to "+ num1 );
+        for (int i =2;i<=num1;i=i+2)
         {
             if(i%2==0)
-                System.out.print(i+" ");
+                System.out.println(""+i);
             input.close();
         }
     }
